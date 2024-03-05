@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: green;
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+}
+
+p {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: purple !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: orangered !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url(imagenes/cannabis-2773112_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-weight: bold;
+    text-decoration: underline rgb(77, 138, 19);
+}
+
+.jumbotron2 {
+    height: 400px;
+    background-image: url(/imagenes/hh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-weight: bold;
+    text-decoration: underline rgb(77, 138, 19);
+}
+
+.btn:hover {
+    color: orangered;
+}
+
+h2 {
+    text-align: center;
+    background-color: green;
+    padding: 20px;
+    font-weight: bold;
+    color: grey;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: orange;
+    text-transform: capitalize;
+}
+
+.nleft {
+    background-image: url(imagenes/hemp-5375748_1280.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.nright {
+    padding: 20px;
+}
+
+.articulo {
+    border: 5px solid black;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 20px;
+    color: violet;
+}
+
+.articulo i {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(165, 108, 42);
+}
+
+.productos2 {
+    border: 5px solid black;
+    text-align: center;
+    justify-content: space-around;
+    background-color: orange;
+    padding: 20px;
+}
+
+h5 {
+    color: blueviolet;
+    text-decoration: underline blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.coco {
+    text-decoration: underline;
+}
+
+.productos1 {
+    border: 5px solid white;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(190, 135, 235);
+    padding: 20px;
+}
+
+footer {
+    background-color: green;
+    color: purple;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: orange;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+.pp {
+    color: rgb(158, 158, 4);
+    text-decoration: underline rgb(131, 97, 3);
+}
+
+.video {
+    text-align: center;
+    padding: 40px;
+}
+
+.txvideo {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buy-title{
+    color: orange;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline orangered;
+}
+.forms{
+    color: white;
+}
+.name{
+    text-decoration: underline white;
+    text-align: justify;
+}
+
+.phone {
+    text-decoration: underline white;
+    text-align: justify;
+}
+
+.mail {
+    text-decoration: underline white;
+    text-align: justify;
+}
+
+.trago {
+    text-decoration: underline white;
+    text-align: justify;
+}
+
+.address {
+    text-decoration: underline white;
+    text-align: justify;
+}
+
+.name-input {
+    position: relative;
+    left: 30px;
+}
+
+.mail-input {
+    width: 222px;
+    position: relative;
+    left: 6px;
+}
+
+.phone-input {
+    width: 222px;
+    position: relative;
+    left: 6px;
+}
+
+.submit {
+    bottom: 5px;
+    left: 11px;
+    text-decoration: none;
+}
+
+.delete {
+    bottom: 5px;
+    left: 11px;
+    text-decoration: none;
+}
+.ubicasao{
+    color: orange;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline orangered;
+}
+.ubicacionmapa {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
